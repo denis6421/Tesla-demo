@@ -1,0 +1,1503 @@
+@media screen and (max-width: 1350px) {
+  .fullscreen-bg_video {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    max-width: 1350px;
+    max-height: none;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+  .model_s_switching_img {
+    width: 70vw;
+    min-width: 600px;
+    height: auto;
+    margin: auto;
+
+  }
+  .model_s_banner_con span:last-child, .model_x_banner_con span:last-child{
+  padding: 40px 70px 40px 70px;
+  }
+  .model_x_falcon_con div:first-child{
+    right: 50px;
+
+  }
+}
+@media screen and (max-width: 1250px){
+  .roadster_interior_con {
+    width: 100%;
+  }
+.roadster_interior_con span{
+  width: 85%;
+    text-align: center;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1200px){
+  .model_s_info_con, .model_s_small_video_con,.model_s_safety_con,.model_s_touchscreen_con,.model_s_range_con,.model_s_estimator_con,
+  .model_x_con, .model_x_storage_con, .estimator_con_x, .model_3_name_con, .model_3_reservation_con div{
+    width: 90%;
+  }
+.model_s_specs_con , .model_x_specs_con, .model_3_specs_con{
+  width: 100%;
+}
+  .model_s_built_around_con p {
+    width: 90%;
+  }
+
+  .model_s_functional_range_calc{
+    width: 750px;
+  }
+  .model_s_calc_box , .model_x_calc_box{
+  width: 150px;
+  margin-right: 15px;
+}
+#temp_calc_big_button{
+  margin-right: 15px;
+}
+.model_s_functional_range_calc{
+  justify-content: space-around;
+}
+  #speed_calc, #temp_calc{
+    border: none;
+  }
+  .model_s_estimator_functional_calc, .model_x_estimator_functional_calc{
+    width: 730px;
+  }
+  .slider_x {
+    width: 80%;
+    height: auto;
+  }
+  .slider_x .swipe{
+    width: 100%;
+  }
+  .model_x_falcon_con div:first-child{
+    bottom:20px;
+    width: 70%;
+    left: 15%;
+    height: 135px;
+    text-align: center;
+  }
+  .model_x_falcon_con div:first-child h1{
+    color: white;
+  }
+    .model_x_falcon_con{
+    width: 100vw;
+    }
+    .roadster_dynamic_big_div .roadster_video_1 {
+      width: 1000px;
+    }
+.roadster_video_con{
+  width: 100%;
+  margin: 0px;
+  margin-top: 100px;
+}
+.roadster_video_con iframe {
+  min-width: 100%;
+  height:60vw;
+  border: none;
+}
+}
+@media screen and (max-width: 1000px){
+  footer div{
+    width: 90vw;
+  }
+  footer div span a{
+    display: none;
+  }
+
+  .intro_header {
+    font-size: 14px;
+  }
+  .menu_con {
+    font-size: 14px;
+  }
+  .model_s_header, .model_x_header, .energy_header{
+    width: 92vw;
+    padding-top: 90px;
+  }
+    .model_s_header h1 ,.model_x_header h1 , .energy_header h1{
+      font-size: 25px;
+    }
+  .model_s_header ul li , .model_x_header ul li , .energy_header ul li{
+  font-size: 14px;
+}
+.model_s_img_con, .model_x_img_con, .model_3_img_con , .roadster_con_header{
+  min-width: 100%;
+  min-height:380px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1{
+  font-size: 27px;
+}
+.model_s_hardware_con iframe {
+  width: 90vw;
+  height: 60vw;
+  margin: auto;
+  border: none;
+}
+.model_s_hardware_con p {
+  width:90vw;
+
+}
+#logo{
+  margin-left: 20px;
+}
+.model_s_updates_con {
+  width: 100%;
+  height:40vw;
+  margin-bottom: 70px;
+
+}
+.model_s_updates_con_info_box {
+  top: 30px;
+  right: 8vw;
+  width: 40vw;
+  height: 20vw;
+}
+.model_s_updates_con_info_box h2{
+  padding-bottom: 20px;
+  font-size: 4vw;
+}
+
+.model_s_updates_con_info_box p {
+font-size: 2vw;
+}
+
+.model_s_updates_con_info_box button {
+  width: 20vw;
+  height: 5vw;
+  background: #353535;
+font-size: 2vw;
+}
+.model_s_range_con {
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid lightgray;
+}
+.model_s_range_con_img{
+  width: 600px;
+
+}
+ #hidden_img{
+   width: 600px;
+     height: 250px;
+ }
+.model_s_range_con_img div{
+  width: 68px;
+  height: 68px;
+
+}
+.model_s_range_con_img .wheels1 {
+  right: 150px;
+    top: 85px;
+}
+
+.model_s_range_con_img .wheels2 {
+  top: 85px;
+  left: 110px;
+}
+.model_s_banner_con , .model_x_banner_con{
+  height: 300px;
+
+}
+.model_s_banner_con span:last-child ,.model_x_banner_con span:last-child{
+  padding: 30px;
+  text-align: center;
+}
+.model_s_specs_con .model_s_specs_flex_box, .model_x_specs_flex_box, .model_3_specs_flex_box{
+  width: 90%;
+}
+.model_x_safest_con{
+  width: 90%;
+}
+#safest_intro{
+  width: 100%;
+}
+.model_x_safest_flex{
+  width:600px;
+  justify-content: space-between;
+}
+.model_x_safest_flex span{
+  margin: 0px;
+  width:46%;
+}
+
+.model_x_safest_flex span img{
+  width: 100%;
+}
+#safest_con_img{
+  width: 70%
+}
+.model_x_falcon_con {
+  width: 100%;
+  height: 660px;
+  background-image: url('../images/model-x-page/falcon.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position:15% 85%;
+}
+.model_3_prod_time{
+  width: 90%;
+}
+#model_3_prod_flex{
+  justify-content: space-around;
+  width: 100%;
+  margin: auto;
+}
+.model_3_signup{
+
+width: 100%;
+padding-top: 50px;
+}
+.model_3_signup h2{
+  font-size: 25px;
+}
+.model_3_signup div{
+width: 90%;
+  margin: auto;
+}
+.model_3_signup div > div{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+  margin-top: 40px;
+
+}
+.model_3_signup div > div button{
+  margin: auto;
+}
+.model_s_and_3_con article{
+  width:90%;
+}
+.roadster_dynamic_big_div .roadster_video_1 {
+  width: 800px;
+
+}
+.roadster_con_header_info{
+  width: 600px;
+  height: 160px;
+  bottom: 20px;
+}
+.roadster_con_header_info_flex{
+  justify-content: space-around;
+}
+.roadster_con_header_info_flex button{
+  width: 130px;
+}
+.roadster_con_header_info p{
+  font-size:16px;
+  width: 80%;
+}
+.big_red_con {
+margin-top: 60px;
+  height:62vw;
+  min-height:300px;
+  background-size:  contain;
+  position: relative;
+  background-position: center;
+
+}
+.big_red_con div{
+  width: 90%;
+  bottom: 30px;
+}
+.big_red_con div h3, .big_red_con div p {
+  width: 47%;
+  line-height: 1.2;
+}
+.big_red_con div h3 {
+  font-size: 21px;
+}
+.glass_roof_con{
+  background-size:  contain;
+  height: 80vw;
+  padding-bottom: 30px;
+}
+.glass_roof_con div{
+  width: 90%;
+  height: auto;
+  bottom: 20px;
+  left: 5%;
+  right: 0px;
+  font-size: 17px;
+  text-align: center;
+}
+.glass_roof_con div h3{
+  text-align: center;
+}
+  .roadster_video_con {
+    height: auto;
+  }
+  .energy_con_flex{
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 830px){
+
+.model_s_functional_range_calc{
+  flex-wrap: wrap;
+  height: 320px;
+  width: 450px;
+}
+.model_s_calc_box, .model_x_calc_box{
+  margin: 0px;
+}
+#temp_calc{
+  display: flex;
+  width: 260px;
+}
+#temp_calc div{
+order: 2;
+}
+#wheels_calc{
+  margin-top: 40px;
+}
+#wheels_calc div > div{
+  margin: 0px 20px 0px 20px;
+}
+#wheels_calc h3{
+  padding-left: 20px;
+}
+.model_s_estimator_functional_calc , .model_x_estimator_functional_calc{
+  width: 100%;
+  height: 300px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.model_s_estimator_functional_calc div:first-child, .model_x_estimator_functional_calc div:first-child{
+  width: 100%;
+text-align: center;
+border: none;
+padding: 0px;
+margin: 0px;
+height: 90px;
+}
+
+.model_s_estimator_functional_calc div:first-child p , .model_x_estimator_functional_calc div:first-child p{
+  text-align: center;
+}
+.model_s_estimator_functional_calc div:first-child span, .model_x_estimator_functional_calc div:first-child span{
+  margin: auto;
+  width: 150px;
+  height: 60px;
+}
+#calc_dis_value{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.model_s_estimator_con aside  {
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+}
+.model_s_banner_con, .model_x_banner_con{
+  flex-wrap: wrap;
+  height: 600px;
+}
+.model_s_banner_con span:first-child, .model_x_banner_con span:first-child {
+  width: 100%;
+  height: 60%;
+}
+.model_s_banner_con span:last-child, .model_x_banner_con span:last-child{
+  width: 100%;
+  height: 40%;
+}
+
+.model_x_updates_con{
+  width: 100%;
+  height: 300px;
+
+}
+.model_x_updates_con_info_box{
+  width: 280px;
+  height: 200px;
+  right: 20px;
+  top: 30px;
+}
+.model_x_updates_con_info_box h2{
+  padding-bottom: 15px;
+}
+.model_x_big_flex_box {
+  height:auto;
+}
+.model_x_big_flex_box div{
+  width: 100%;
+  height: auto;
+}
+.model_x_big_flex_box h1{
+  margin-top:0px;
+}
+.model_x_big_flex_box div:nth-child(1), .model_x_big_flex_box div:nth-child(4) {
+height: 250px;
+text-align: center;
+  }
+  .model_x_big_flex_box div:nth-child(3){
+    order: 4;
+  }
+  .model_x_big_flex_box div:nth-child(4){
+    order: 3;
+  }
+#model_s_and_3_img{
+  justify-content: space-around;
+}
+#model_s_and_3_img div:first-child{
+  margin: 0px;
+}
+.model_3_delivery_con{
+  min-width: 90%;
+
+}
+.model_3_footer, .roadster_footer ,.energy_page_footer{
+  padding: 0px;
+
+}
+.energy_page_footer{
+  margin: 0px;
+}
+.model_3_footer ul li ,.roadster_footer ul li ,.energy_page_footer ul li{
+  font-size: 14px;
+
+}
+.model_3_footer ul ,.roadster_footer ul , .energy_page_footer ul{
+  width: 80%;
+  margin: auto;
+
+}
+
+.roadster_dynamic_big_div .roadster_video_1 {
+  width: 680px;
+}
+.roadster_con_header{
+  height: 60vw;
+  min-height: 500px;
+}
+.base_specs_con{
+  width: 90%;
+}
+.energy_solar_roof_con, .energy_storage_con{
+  height: 650px;
+}
+}
+@media screen and (max-width: 750px){
+  #logo{
+    width: 140px;
+  }
+}
+@media screen and (min-width: 710px) {
+  .main_page_wrapper {
+    display: block;
+  }
+  .main_mobile_page_wrapper {
+    display: none;
+  }
+footer{
+top: auto!important;
+}
+#hidden_mobile_nav{
+  display: none;
+}
+#main_nav{
+  display: block;
+}
+.intro_header{
+  display: block!important;
+}
+
+}
+@media screen and (max-width: 710px) {
+  .intro_header {
+    background: #222222;
+    position: fixed;
+    top:0px;
+  }
+  .intro_header ul {
+    transition: 0s;
+    display: none;
+  }
+  #hidden_mobile_nav{
+    display: block;
+  }
+  #main_nav{
+    display: none;
+  }
+  .menu_con {
+    padding-right: 20%;
+    width: 30px;
+  }
+
+  .menu_con span:not(:last-child) {
+  display: none;
+    margin-right: 30px;
+  }
+  .main_page_wrapper {
+    display: none;
+  }
+  .main_mobile_page_wrapper {
+    display: flex;
+  }
+
+  .intro_header_wrapper{
+    width: 95%;
+  }
+
+.model_s_img_con  {
+  padding-top: 100px;
+  width: 100%;
+  height: 90vw;
+  background: url('../images/model-s-page/model-s-mobile.jpg');
+  background-repeat: no-repeat;
+  background-position: 60% 40%;
+  background-size: cover;
+
+}
+.model_x_img_con{
+  padding-top: 100px;
+  width: 100%;
+  height: 90vw;
+  background: url('../images/model-x-page/model-x-mobile.png');
+  background-repeat: no-repeat;
+  background-position: 60% 40%;
+  background-size: cover;
+  padding-right: 80px;
+}
+.model_3_img_con{
+  padding-top: 100px;
+  width: 100%;
+  height: 90vw;
+  background: url('../images/model-3-page/tesla-model-3-mobile.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30% 70%;
+}
+
+.model_s_header, .model_x_header, .energy_header{
+  display: none;
+}
+footer{
+  top:60px;
+  height: 50px;
+}
+
+footer div span button{
+  padding: 0px;
+  width: 100px;
+  height: 30px;
+}
+footer div span button:nth-child(3){
+  display: none;
+}
+footer div span button span{
+  display: none;
+}
+.model_s_info_con {
+  width: 100%;
+}
+.model_s_info_con div{
+  width:90%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+
+ }
+ .model_s_info_con h3{
+   text-align: center;
+ }
+ .model_s_info_con div img {
+   width: 80%;
+   height: auto;
+
+ }
+ .model_s_newletter_con button{
+   width: 90%;
+ }
+ .model_s_newletter_con p{
+   width: 90%;
+   margin: auto;
+ }
+ .model_s_hardware_con   div{
+   width: 90%;
+   margin: auto;
+   margin-top: 40px;
+ }
+ .model_s_hardware_con   div button{
+   width: 100%;
+   height: 40px;
+   color: white;
+   background: #2d2d2d;
+   margin-bottom: 7px;
+
+ }
+ .model_s_switching_img{
+   transform: rotate(90deg);
+   margin: auto;
+   margin-top: 200px;
+   margin-bottom: 200px;
+   min-width: 500px;
+ }
+ .model_s_electric_con{
+   padding-bottom: 60px;
+ }
+.model_s_electric_con_hidden_btn button{
+  display: block;
+}
+.model_s_small_video_con{
+  flex-direction: column;
+  height: auto;
+  text-align: center;
+}
+.model_s_small_video_con_p{
+  width: 100%;
+
+}
+.model_s_small_video_con_iframe{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding-top: 40px;
+}
+.model_s_small_video_con_iframe p:first-child{
+  padding-top: 40px;
+}
+.model_s_wrapper .slider button , .slider_x .btn-primary , .slider_x_big  .btn-primary{
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  transition: 0.6s;
+}
+.model_s_wrapper #prev_s div , .model_x_wrapper #prev_small div, .model_x_wrapper #prev1 div{
+  width: 15px;
+  height: 15px;
+}
+
+.model_s_wrapper #next_s div, .model_x_wrapper #next_small div ,.model_x_wrapper #next1 div{
+  width: 15px;
+  height: 15px;
+}
+.model_s_wrapper #prev_s , .model_x_wrapper #prev_small, .model_x_wrapper #prev1 div{
+  top: calc(50% - 40px);
+}
+.model_s_wrapper #next_s , .model_x_wrapper #next_small , .model_x_wrapper #next1 div{
+  top: calc(50% - 40px);
+}
+.model_s_safety_con{
+  flex-direction: column;
+  text-align: center;
+  margin-left: 5%;
+  padding-top: 30px;
+}
+.model_s_safety_con span {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.model_s_safety_con span iframe {
+  margin-top: 65px;
+  width: 100%;
+  height: 50vw;
+  border: none;
+}
+.model_s_safety_con span:last-child h3 {
+  text-align: center;
+  margin-top: 15px;
+}
+.model_s_touchscreen_con{
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding: 50px 0px;
+}
+.model_s_touchscreen_con div{
+  width: 100%;
+  margin: auto;
+}
+.model_s_touchscreen_con div:first-child{
+  width: 100%;
+}
+.model_s_touchscreen_con div p{
+  width: 100%;
+}
+#logo{
+  margin-left: 0px;
+}
+.model_s_touchscreen_con{
+  text-align: center;
+}
+.model_s_touchscreen_con iframe{
+  margin-top: 30px;
+}
+.model_s_touchscreen_con div:last-child {
+  width: 90%;
+
+}
+.model_s_range_con_img{
+  width: 400px;
+}
+.model_s_range_con_img div{
+  width: 44px;
+  height: 44px;
+
+}
+.model_s_range_con_img .wheels1 {
+  right: 102px;
+    top: 58px;
+}
+
+.model_s_range_con_img .wheels2 {
+  top: 58px;
+  left: 74px;
+}
+.model_s_functional_range , .model_x_functional_range{
+  width: 400px;
+}
+.model_s_functional_range div, .model_x_functional_range div{
+  width: 30%;
+}
+#hidden_img{
+  width: 500px;
+  height:200px;
+}
+.model_s_estimator_con .model_s_estimator_functional, .model_x_estimator_functional{
+  width: 100%;
+  justify-content: space-between;
+}
+.model_s_banner_con, .model_x_banner_con{
+  flex-wrap: wrap;
+  height: 520px;
+}
+.model_s_banner_con span:last-child h1 ,.model_x_banner_con span:last-child h1{
+padding-bottom: 10px;
+}
+.model_s_banner_con span:last-child p, .model_x_banner_con span:last-child p{
+  font-size: 13px;
+}
+.model_s_banner_con span:last-child button , .model_x_banner_con span:last-child button{
+  width: 180px;
+  height: 30px;
+}
+ .model_s_specs_flex_box, .model_x_specs_flex_box, .model_3_specs_flex_box{
+  flex-wrap: wrap;
+
+}
+ .model_s_specs_flex_box section:first-child, .model_x_specs_flex_box section:first-child, .model_3_specs_flex_box section:first-child {
+  order: 3;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 100%;
+margin: auto;
+height: 40vw;
+}
+ .model_s_specs_flex_box section:first-child img,  .model_x_specs_flex_box section:first-child img ,.model_3_specs_flex_box section:first-child img{
+  height: 100%;
+  width: auto;
+}
+ .model_s_specs_flex_box section:not(first-child),  .model_x_specs_flex_box section:not(first-child), .model_3_specs_flex_box section:not(first-child){
+  width: 45%;
+}
+
+.model_x_fit_con{
+  width: 90%;
+}
+.model_x_safest_flex{
+  width: 90%;
+}
+.model_x_storage_con aside{
+  width: 100%;
+}
+.model_x_falcon_con {
+  height: 490px;
+  background-image: url('../images/model-x-page/falcon-mobile.jpg');
+  background-position: center;
+}
+.model_x_falcon_con div:first-child{
+  bottom:20px;
+  width: 90%;
+  left: 5%;
+  height: 125px;
+  text-align: center;
+}
+.model_x_falcon_con p{
+  font-size: 12px;
+
+}
+.model_x_big_flex_box div:nth-child(1) p, .model_x_big_flex_box div:nth-child(4) p{
+  width: 90%;
+}
+#model_x_btn{
+  height: 100px;
+width: 150px;
+margin: auto;
+padding: 0px;
+
+}
+#model_x_btn button{
+  margin-bottom: 15px;
+
+}
+#model_s_and_3_nav #model_s_and_3_only_nav_wrapper h3{
+  font-size: 15px;
+}
+#model_s_and_3_nav #model_s_and_3_only_nav_wrapper button{
+  width:120px;
+  font-size: 12px;
+}
+.roadster_dynamic_big_div .roadster_video_1 {
+  width: 530px;
+}
+.roadster_con_header_info{
+  width: 470px;
+}
+.roadster_con_header_info p{
+  width: 95%;
+}
+.roadster_con_header_info_flex span:first-child{
+  font-size: 20px;
+}
+.roadster_con_header_info_flex div {
+  height: 55px;
+
+}
+.roadster_con_header_info_flex span:first-child{
+  font-size: 16px;
+}
+.roadster_con_header_info_flex div:nth-child(3) span:first-child::after{
+  font-size: 14px;
+}
+.base_specs_con span p:first-child{
+  width: 60%;
+}
+.big_red_con div{
+flex-direction: column;
+
+}
+.big_red_con div h3, .big_red_con div p{
+  width: 100%;
+  text-align: center;
+}
+.roadster_interior_con{
+  padding-top: 40px;
+}
+.roadster_interior_con span{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  }
+  .roadster_interior_con span h3{
+    margin-right: 0px;
+  }
+  .roadster_video_con{
+    margin-top: 60px;
+  }
+  .roadster_video_con_long{
+    height: 100px;
+  }
+  .model_3_footer ul, .roadster_footer ul, .energy_page_footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    text-align: left;
+    justify-content: center;
+  }
+  .model_3_footer ul li, .roadster_footer ul li , .energy_page_footer ul li{
+     width: auto;
+     margin-bottom: 15px;
+  }
+  #roadster_hidden_nav button{
+    width: 100px;
+    font-size:10px;
+  }
+  #roadster_hidden_nav img{
+    width: 100px;
+  }
+  .energy_header_con{
+  height: 350px;
+  }
+    .energy_con_flex{
+      flex-direction: column;
+      padding-bottom: 50px;
+    }
+  .energy_con_flex div{
+    width: 100%;
+  }
+  .energy_con_flex div:first-child{
+    margin-top: 40px;
+  }
+  .energy_con_flex p{
+    width: 85%;
+    text-align: center;
+    margin: auto;
+  }
+  .energy_con_flex div img{
+    width:300px;
+  }
+  .energy_solar_roof_con, .energy_storage_con{
+    height: 450px;
+  }
+   .energy_storage_con{
+     padding-top: 50px;
+   }
+   .energy_storage_con h2{
+     width: 80%;
+     margin: auto;
+     font-size: 25px;
+   }
+  .energy_storage_con_flex{
+    height: 220px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 550px){
+  .model_s_switching_img{
+    transform: rotate(90deg);
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom:120px;
+    min-width:300px;
+  }
+  .model_s_touchscreen_con div:last-child span {
+    width: 100%;
+    height: auto;
+    text-align: left;
+  }
+  .model_s_touchscreen_con div:last-child {
+    padding-top: 30px;
+
+  }
+  .model_s_updates_con {
+    width: 100%;
+    height:50vw;
+    margin-bottom: 70px;
+
+  }
+
+  .model_s_updates_con_info_box h2{
+    padding-bottom: 20px;
+    font-size: 4vw;
+  }
+
+  .model_s_updates_con_info_box p {
+  font-size: 2vw;
+  }
+
+  .model_s_updates_con_info_box button{
+    width: 100%;
+  }
+
+  .model_s_range_con_img{
+    width: 280px;
+  }
+  .model_s_functional_range, .model_x_functional_range div{
+    width: 100%;
+
+  }
+  .model_s_functional_range div , .model_x_functional_range div{
+    width: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .model_s_functional_range div p .model_x_functional_range div p{
+    font-size:5vw;
+  }
+  .model_s_functional_range div img{
+    width: 80%;
+    height: auto;
+  }
+  .model_s_functional_range_calc{
+    width: 280px;
+    height: 200px;
+    padding-top: 10px;
+  }
+  .model_s_functional_range_calc .model_s_calc_box , .model_x_functional_range_calc .model_x_calc_box{
+    width: 90px;
+    height: 40px;
+    padding: 0px 0px 0px 10px;
+  }
+#wheels_calc .model_s_calc_box span img{
+    width: 25px;
+  }
+  #wheels_calc .model_s_calc_box span:last-child{
+    font-size: 15px;
+  }
+  #wheels_calc .model_s_calc_box{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+.model_s_calc_box span:first-child , .model_x_calc_box span:first-child{
+    font-size: 15px;
+    padding-left: 5px;
+  }
+  #speed_calc #speed_calc_val::after{
+    font-size: 8px;
+  }
+#wheels_calc{
+  margin-top: 7px;
+}
+#temp_calc{
+  width: 160px;
+}
+#temp_calc_big_button{
+  min-width: 55px;
+  height: 55px;
+}
+#temp_calc_big_button p{
+  font-size: 7px;
+  margin-bottom: 4px;
+  margin-top: 7px;
+  padding: 0px;
+}
+#temp_calc_big_button img{
+  width: 14px;
+}
+    .model_s_functional_range_calc section{
+      width: auto;
+      height:80px;
+
+    }
+    .model_s_functional_range_calc h3{
+      font-size: 14px;
+    }
+    .model_s_range_con_img div{
+      width: 30px;
+      height: 30px;
+
+    }
+    .model_s_range_con_img .wheels1 {
+      right: 71px;
+        top: 40px;
+    }
+
+    .model_s_range_con_img .wheels2 {
+      top: 40px;
+      left: 53px;
+    }
+     #hidden_img{
+       width: 380px;
+       height: 150px;
+     }
+    .estimator_con_x #time_calc, #cost_calc{
+      font-size: 20px;
+    }
+     .model_s_estimator_functional_calc, .model_x_estimator_functional_calc{
+       height: 380px;
+     }
+     .model_s_estimator_con .model_s_estimator_functional span p:last-child, .model_x_estimator_functional span p:last-child{
+       font-size: 18px;
+     }
+    .model_s_estimator_functional_calc p , .model_x_estimator_functional_calc p{
+        text-align: center;
+      }
+     .model_s_estimator_functional_calc div:not(first-child) , .model_x_estimator_functional_calc div:not(first-child){
+       width: 90%;
+       height: 80px;
+       margin: auto;
+     }
+     .model_s_estimator_functional_calc div:nth-child(3) , .model_x_estimator_functional_calc div:nth-child(3){
+      height: 50px;
+      margin-top: 10px;
+     }
+
+     .model_s_estimator_functional_calc .model_s_calc_box:not(first-child), .model_x_estimator_functional_calc .model_x_calc_box:not(first-child){
+       width: 100%;
+       height:50px;
+     }
+     .model_s_banner_con, .model_x_banner_con{
+       flex-wrap: wrap;
+       height: 440px;
+
+     }
+
+     .model_s_banner_con span:last-child h1, .model_x_banner_con span:last-child h1{
+     padding-bottom: 10px;
+     font-size: 18px;
+     }
+      .model_s_banner_con span:last-child, .model_x_banner_con span:last-child{
+        padding:15px;
+      }
+     .model_s_banner_con span:last-child p, .model_x_banner_con span:last-child p{
+       font-size: 13px;
+     }
+     .model_s_banner_con span:last-child button, .model_x_banner_con span:last-child button{
+       width: 180px;
+       height: 30px;
+     }
+    .model_s_specs_flex_box, .model_x_specs_flex_box, .model_3_specs_flex_box{
+      padding: 0px;
+    }
+
+   .model_s_specs_flex_box section:not(first-child), .model_x_specs_flex_box section:not(first-child), .model_3_specs_flex_box section:not(first-child){
+       width: 100%;
+
+     }
+     .model_x_con div{
+       width: 100%;
+       height: 90px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-between;
+     }
+     .model_x_storage_con{
+       padding-top: 30px;
+     }
+     .model_x_storage_con_flex{
+       height: 1050px;
+       flex-wrap: wrap;
+       justify-content:center;
+
+     }
+     .model_x_storage_con_flex span{
+       width: 40%;
+       margin-left: 15px;
+       margin-right: 15px;
+     }
+     .model_x_storage_con_flex span:last-child{
+       width: 70%;
+        text-align: center;
+     }
+     .model_x_storage_con_flex span:last-child img{
+       width: 60%;
+     }
+     .slider_x {
+       width:100%;
+       height: auto;
+     }
+     .slider_x .swipe{
+       width: 100%;
+     }
+     .model_x_safest_flex{
+       flex-wrap: wrap;
+     }
+     .model_x_safest_flex span{
+       width:100%;
+     }
+      .model_x_safest_flex span:first-child{
+        margin-bottom: 40px;
+      }
+      .model_x_safest_flex span img{
+        width: 75%;
+      }
+
+      .model_x_updates_con{
+        width: 100%;
+        height: 200px;
+        background-position: 20% 80%;
+
+      }
+      .model_x_updates_con_info_box{
+        width: 240px;
+        height: 200px;
+        right: 20px;
+        top: 10px;
+        text-align: center;
+      }
+      .model_x_updates_con_info_box h2{
+        font-size: 20px;
+      }
+      .model_x_updates_con_info_box p{
+        font-size: 12px;
+      }
+      .model_x_updates_con_info_box button{
+        width: 150px;
+        height: 30px;
+      }
+      .model_x_falcon_con {
+        width: 100%;
+        height: 400px;
+        background-image: url('../images/model-x-page/falcon-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+        }
+        #model_s_and_3_nav #model_s_and_3_only_nav_wrapper h3{
+          font-size: 14px;
+        }
+        #model_s_and_3_nav #model_s_and_3_only_nav_wrapper button{
+          width:90px;
+          font-size: 9px;
+        }
+        #model_s_and_3_img {
+          flex-direction: column;
+        align-items: center;
+        }
+        #model_s_and_3_img div:last-child{
+          margin: 0px;
+        }
+          #model_s_and_3_img div{
+            width: 70%;
+            margin: auto;
+          }
+          .model_3_delivery_con_flex .delivery_info_small_flex{
+            flex-direction: column;
+            justify-content: center;
+            margin: 0px;
+          }
+          .model_3_delivery_con_flex div{
+            height: 210px;
+   }
+
+   .model_3_delivery_con_flex div:first-child{
+     height: 290px;
+   }
+   .model_3_delivery_con_flex .delivery_info_small_flex > span{
+     width: 100%;
+   }
+   .model_3_delivery_con_flex h3{
+     font-size: 18px;
+
+   }
+   .model_3_delivery_con_flex p{
+    font-size: 15px;
+   }
+   .model_3_name_con span{
+     flex-direction: column;
+     }
+      .model_3_name_con span button{
+        width: 160px;
+        margin-top: 12px;
+        font-size: 12px;
+      }
+      .model_3_reservation_con{
+        padding-top: 30px;
+      }
+      .model_3_reservation_con div button{
+        width: 200px;
+        font-size: 10px;
+      }
+      .model_3_prod_time{
+        height: 500px;
+      }
+      #model_3_prod_flex{
+      flex-direction: column;
+      }
+        #model_3_prod_flex div{
+          margin-top: 20px;
+        }
+      #model_3_prod_flex div:nth-child(1){
+        width: 100%;
+      }
+      #model_3_prod_flex div:nth-child(2){
+        width: 100%;
+      }
+      #model_3_prod_flex div:nth-child(3){
+        width: 100%;
+      }
+      #model_3_prod_flex div:nth-child(2){
+      border: none;
+      padding-left: 0px;
+      padding-right: 0px;
+      }
+
+      .model_3_signup h2{
+        font-size: 18px;
+      }
+
+      .model_3_signup div > div{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
+
+      }
+      .model_3_signup div > div button{
+        margin: auto;
+        margin-top: 20px;
+      }
+      .model_3_signup div input{
+        width: 100%;
+      }
+
+
+      .roadster_dynamic_big_div .roadster_video_1 {
+        width: 380px;
+
+      }
+      .roadster_con_header{
+        min-height: 400px;
+
+      }
+      .roadster_con_header_info{
+        width: 100%;
+        height: 145px;
+
+      }
+      .roadster_con_header_info_flex div:last-child{
+      display: none;
+      }
+      .roadster_con_header_info_flex div{
+        width: 100px;
+      }
+        .roadster_con_header_info_flex div:nth-child(2){
+
+          width: 32%;
+        }
+      .roadster_con_header #roadster_head_text{
+        display: flex;
+        width: 100px;
+        justify-content: space-between;
+
+      }
+      #roadster_head_text h1{
+        font-weight: bold;
+        color: white;
+      }
+#roadster_head_text p{
+display: none;
+}
+.base_specs_con{
+  padding-top: 40px;
+}
+.base_specs_con span{
+  padding-top: 12px;
+}
+.base_specs_con span p{
+  font-size: 12px;
+}
+.big_red_con{
+  background-size: cover;
+  padding-bottom: 50px;
+}
+.big_red_con div{
+  justify-content: center;
+  bottom: 10px;
+}
+.big_red_con div h3{
+  margin-bottom: 20px;
+}
+.big_red_con div h3, .big_red_con div p {
+font-size: 13px;
+}
+.glass_roof_con{
+  background-size: cover;
+  padding-bottom: 90px;
+  height: 380px;
+}
+.glass_roof_con div{
+  font-size: 13px;
+}
+.roadster_video_con p{
+  font-size: 14px;
+}
+#roadster_hidden_nav button{
+  width: 80px;
+  font-size:8px;
+  margin: 0px;
+}
+#roadster_hidden_nav img{
+  width: 70px;
+}
+.roadster_interior_con span{
+  font-size: 13px;
+}
+.energy_con_flex div img{
+  width: 220px;
+}
+.energy_con_flex div {
+  height: 450px;
+}
+.energy_solar_roof_con{
+  height: 350px;
+  padding-top: 30px;
+}
+.energy_solar_roof_con div{
+  width: 100%;
+}
+.energy_solar_roof_con div p{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.energy_solar_roof_con div button{
+  width: 160px;
+  height: 30px;
+}
+.energy_storage_con_flex{
+  margin-top: 20px;
+}
+.energy_storage_con_flex span{
+  width: 100%;
+}
+.energy_storage_con_flex span p{
+  width: 90%;
+  margin: auto;
+}
+.energy_storage_con_flex span button{
+  width: 130px;
+}
+}
+@media screen and (max-width: 400px) {
+  .main_mobile_con section p {
+    display: none;
+  }
+  .main_mobile_con section {
+    bottom: 230px;
+  }
+  footer div span button{
+    width: 25vw;
+  }
+  h1{
+    font-size: 23px;
+  }
+   .model_s_banner_con span:first-child ,.model_x_banner_con span:first-child{
+     height: 50%;
+   }
+    .model_s_banner_con span:last-child, .model_x_banner_con span:last-child{
+      height: 50%;
+    }
+     .model_s_specs_flex_box section:first-child, .model_x_specs_flex_box section:first-child, .model_3_specs_flex_box section:first-child{
+      flex-direction: column;
+        height: auto;
+      }
+     .model_s_specs_flex_box section:first-child img,    .model_x_specs_flex_box section:first-child img, .model_3_specs_flex_box section:first-child img{
+      margin-top: 30px;
+      width: 50%;
+      height: auto;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    #hidden_img{
+      width: 300px;
+      height: 150px;
+
+    }
+    .roadster_dynamic_big_div .roadster_video_1 {
+      width: 330px;
+
+    }
+    .big_red_con div h3, .big_red_con div p {
+    font-size: 13px;
+    }
+    .roadster_video_con_btn button{
+      width: 120px;
+    }
+    .model_3_footer, .roadster_footer , .energy_page_footer{
+    height: 150px;
+    }
+    .energy_solar_roof_con{
+      height: 290px;
+
+    }
+}
+@media screen and (max-width: 330px) {
+  #mobile_main_safest_header {
+    width: 90%;
+    margin: auto;
+    font-size: 8vw;
+  }
