@@ -60,16 +60,18 @@ function toggle_menu() {
   ;
     clear_main_page();
     $('main').load('pages/model-s.html');
-    $("footer").show();
-    $("footer").show();
     loadScript('js/model-s.js');
+    $("footer").show();
+    $("footer").show();
+
       $('#changing_text').html('Model S');
   })
   $("#model_x").click(function() {
     clear_main_page();
+      loadScript('js/model-x.js');
     $('main').load('pages/model-x.html');
     $("footer").show();
-    loadScript('js/model-x.js');
+
       $('#changing_text').html('Model X');
 
   })

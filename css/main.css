@@ -734,10 +734,14 @@ border: none;
   margin: auto;
 
 }
-
+.model_s_switching_img div{
+	width: 70%;
+	height: 450px;
+	margin: auto;
+}
 .model_s_switching_img img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .switch_btn_con {
