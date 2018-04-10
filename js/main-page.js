@@ -88,9 +88,11 @@ function toggle_menu() {
       'background': "transparent",
       "color": "#222"
     });
+    loadScript('js/roadster.js')
+    loadScript('js/aos.js')
       $('main').load('pages/roadster.html');
       $("footer").hide();
-      loadScript('js/roadster.js')
+
   })
   $("#energy").click(function() {
     clear_main_page();
@@ -99,18 +101,18 @@ function toggle_menu() {
   })
     $(document).on("click", '#hidden_menu_mobile_s', function(event) {
     clear_main_page();
+    loadScript('js/model-s.js');
     $('main').load('pages/model-s.html');
     $("footer").show();;
-    loadScript('js/model-s.js');
     removeClass();
     $('#model_s').addClass('active_header_link');
     $('#changing_text').html('Model S');
   });
   $(document).on("click", '#hidden_menu_mobile_x', function(event) {
     clear_main_page();
+    loadScript('js/model-x.js');
     $('main').load('pages/model-x.html');
     $("footer").show();
-    loadScript('js/model-x.js');
     removeClass();
     $('#model_x').addClass('active_header_link');
     $('#changing_text').html('Model X');
@@ -125,9 +127,11 @@ function toggle_menu() {
   });
   $(document).on("click", '#hidden_menu_mobile_r', function(event) {
     clear_main_page();
+    loadScript('js/roadster.js')
+    loadScript('js/aos.js')
     $('main').load('pages/roadster.html');
     $("footer").hide();
-    loadScript('js/roadster.js')
+
     removeClass();
     $('#roadster').addClass('active_header_link');
   });
