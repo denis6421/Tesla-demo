@@ -2991,9 +2991,9 @@ color: #FD3232;
     align-items: center;
     padding: 0px 20px;
     box-sizing: border-box;
-    display: none;
     display: flex;
     z-index: 1;
+
   }
   #roadster_hidden_nav img {
     width: 150px;

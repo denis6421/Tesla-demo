@@ -28,7 +28,6 @@ function clear_main_page() {
       }else if (currentScroll < previousScroll && $(window).width() > 710) {
         $(".intro_header").show();
         $('.intro_header').addClass('intro_header_visible');
-        $("#roadster_hidden_nav").css('display','none');
       }else if (currentScroll > previousScroll && $(window).width() > 710) {
           $(".intro_header").hide();
           $('.intro_header').removeClass('intro_header_visible')
@@ -83,14 +82,10 @@ function toggle_menu() {
   })
   $("#roadster").click(function() {
     clear_main_page();
-    $(".intro_header #logo > a").html('<img src =' + "./images/black-logo.png" + '>');
-    $(".intro_header").css({
-      'background': "transparent",
-      "color": "#222"
-    });
-    loadScript('js/roadster.js')
+
     loadScript('js/aos.js')
       $('main').load('pages/roadster.html');
+          loadScript('js/roadster.js')
       $("footer").hide();
 
   })

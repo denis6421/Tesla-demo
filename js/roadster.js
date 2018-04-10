@@ -7,6 +7,7 @@
           $('#roadster_hidden_nav').addClass('roadster_sticky')
         } else {
           $('#roadster_hidden_nav').removeClass('roadster_sticky')
+
         }
   });
 
