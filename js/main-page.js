@@ -101,12 +101,13 @@ function toggle_menu() {
   });
   $(document).on("click", '#hidden_menu_mobile_x', function(event) {
     clear_main_page();
-    loadScript('js/model-x.js');
+
     $('main').load('pages/model-x.html');
     $("footer").show();
     removeClass();
     $('#model_x').addClass('active_header_link');
     $('#changing_text').html('Model X');
+      loadScript('js/model-x.js');
   });
   $(document).on("click", '#hidden_menu_mobile_3', function(event) {
     clear_main_page();
