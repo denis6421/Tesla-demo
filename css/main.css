@@ -720,6 +720,7 @@ border: none;
   border-right: 3px solid gray;
     border-top: 3px solid gray;
   transform: rotate(45deg);
+	z-index: 30;
   }
 .model_s_electric_con_hidden_btn button:last-child{
   left: 30px;
@@ -727,21 +728,26 @@ border: none;
   border-left: 3px solid gray;
   border-top: 3px solid gray;
   transform: rotate(-45deg);
+		z-index: 30;
 }
 .model_s_switching_img {
   width: 1000px;
   height: auto;
   margin: auto;
-
+	text-align: center;
 }
 .model_s_switching_img div{
 	width: 70%;
-	height: 450px;
+	height: 30vw;
 	margin: auto;
+
 }
 .model_s_switching_img img {
-  width: 100%;
+  width: auto;
+	max-width: 100%;
   height: auto;
+	max-height: 100%;
+	margin: auto;
 }
 
 .switch_btn_con {

@@ -354,11 +354,11 @@ $('.model_s_estimator_functional_calc div:nth-child(4) .model_s_calc_box').click
     $(this).addClass('active_calc').siblings().removeClass('active_calc');
   });
   $('.model_s_electric_con_hidden_btn button:first-child').click(function() {
-    $(".model_s_switching_img").html('<img src=' + "./images/model-s-page/motor-dual.jpg" + ' />')
+    $(".model_s_switching_img div").html('<img src=' + "./images/model-s-page/motor-dual.jpg" + ' />')
   })
 
   $('.model_s_electric_con_hidden_btn button:last-child').click(function() {
-    $(".model_s_switching_img").html('<img src="./images/model-s-page/motor-p90d.jpg"  />')
+    $(".model_s_switching_img div").html('<img src="./images/model-s-page/motor-p90d.jpg"  />')
   })
   })
   var element = document.getElementById('mySwipe'),

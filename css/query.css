@@ -10,7 +10,7 @@
   }
   .model_s_switching_img {
     width: 70vw;
-    min-width: 600px;
+
     height: auto;
     margin: auto;
 
@@ -351,6 +351,7 @@ margin-top: 60px;
 .model_s_calc_box, .model_x_calc_box{
   margin: 0px;
 }
+
 #temp_calc{
   display: flex;
   width: 260px;
@@ -561,6 +562,7 @@ top: auto!important;
   background-size: cover;
 
 }
+
 .model_x_img_con{
   padding-top: 100px;
   width: 100%;
@@ -640,10 +642,19 @@ footer div span button span{
  }
  .model_s_switching_img{
    transform: rotate(90deg);
+   margin: 0px;
+  width: 80%;
+  margin: auto;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+ }
+ .model_s_switching_img div{
+   width:300px;
+   height: 200px;
    margin: auto;
-   margin-top: 200px;
-   margin-bottom: 200px;
-   min-width: 500px;
+   display: flex;
+   justify-content: center;
  }
  .model_s_electric_con{
    padding-bottom: 60px;
@@ -964,13 +975,13 @@ flex-direction: column;
 
 }
 @media screen and (max-width: 550px){
-  .model_s_switching_img{
-    transform: rotate(90deg);
-    margin: auto;
-    margin-top: 120px;
-    margin-bottom:120px;
-    min-width:300px;
-  }
+
+.model_s_switching_img{
+  height: 400px;
+
+  margin: auto;
+}
+
   .model_s_touchscreen_con div:last-child span {
     width: 100%;
     height: auto;
@@ -1096,22 +1107,39 @@ flex-direction: column;
       font-size: 20px;
     }
      .model_s_estimator_functional_calc, .model_x_estimator_functional_calc{
-       height: 380px;
+       height: 320px;
+       width: 100%;
+       align-items: flex-start;
+       padding-top: 30px;
+       margin-bottom: 30px;
      }
      .model_s_estimator_con .model_s_estimator_functional span p:last-child, .model_x_estimator_functional span p:last-child{
        font-size: 18px;
      }
     .model_s_estimator_functional_calc p , .model_x_estimator_functional_calc p{
         text-align: center;
+        font-size: 11px;
       }
+    .estimator_con_x #time_calc, #cost_calc, .estimator_con_x #gas_calc , #time_calc, #cost_calc, #gas_calc{
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+
+      .model_s_estimator_con .model_s_estimator_functional span p:last-child, .model_x_estimator_functional span p:last-child{
+        font-size: 16px;
+      }
+      .model_s_estimator_functional_calc h5 , .model_x_estimator_functional_calc h5{
+        font-size: 12px;
+        }
      .model_s_estimator_functional_calc div:not(first-child) , .model_x_estimator_functional_calc div:not(first-child){
-       width: 90%;
+       width: 45%;
        height: 80px;
        margin: auto;
      }
      .model_s_estimator_functional_calc div:nth-child(3) , .model_x_estimator_functional_calc div:nth-child(3){
       height: 50px;
       margin-top: 10px;
+      order: 2;
      }
 
      .model_s_estimator_functional_calc .model_s_calc_box:not(first-child), .model_x_estimator_functional_calc .model_x_calc_box:not(first-child){
@@ -1194,7 +1222,11 @@ flex-direction: column;
       .model_x_safest_flex span img{
         width: 75%;
       }
-
+.estimator_con_x aside{
+  padding: 0px;
+  width: 90%;
+  margin-bottom: 50px;
+}
       .model_x_updates_con{
         width: 100%;
         height: 200px;
@@ -1492,6 +1524,10 @@ font-size: 13px;
     }
     .energy_solar_roof_con{
       height: 290px;
+
+    }
+    .model_s_estimator_functional_calc div:not(first-child) , .model_x_estimator_functional_calc div:not(first-child){
+      width: 49%;
 
     }
 }

@@ -62,17 +62,14 @@ function toggle_menu() {
     loadScript('js/model-s.js');
     $("footer").show();
     $("footer").show();
-
-      $('#changing_text').html('Model S');
+    $('#changing_text').html('Model S');
   })
   $("#model_x").click(function() {
     clear_main_page();
       loadScript('js/model-x.js');
     $('main').load('pages/model-x.html');
     $("footer").show();
-
-      $('#changing_text').html('Model X');
-
+    $('#changing_text').html('Model X');
   })
   $("#model_3").click(function() {
     clear_main_page();
@@ -87,7 +84,6 @@ function toggle_menu() {
       $('main').load('pages/roadster.html');
           loadScript('js/roadster.js')
       $("footer").hide();
-
   })
   $("#energy").click(function() {
     clear_main_page();
