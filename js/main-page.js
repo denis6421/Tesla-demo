@@ -59,14 +59,14 @@ function toggle_menu() {
   ;
     clear_main_page();
     $('main').load('pages/model-s.html');
-    loadScript('js/model-s.js');
+
     $("footer").show();
     $("footer").show();
     $('#changing_text').html('Model S');
   })
   $("#model_x").click(function() {
     clear_main_page();
-      loadScript('js/model-x.js');
+
     $('main').load('pages/model-x.html');
     $("footer").show();
     $('#changing_text').html('Model X');
@@ -92,7 +92,7 @@ function toggle_menu() {
   })
     $(document).on("click", '#hidden_menu_mobile_s', function(event) {
     clear_main_page();
-    loadScript('js/model-s.js');
+
     $('main').load('pages/model-s.html');
     $("footer").show();;
     removeClass();
@@ -107,7 +107,7 @@ function toggle_menu() {
     removeClass();
     $('#model_x').addClass('active_header_link');
     $('#changing_text').html('Model X');
-      loadScript('js/model-x.js');
+
   });
   $(document).on("click", '#hidden_menu_mobile_3', function(event) {
     clear_main_page();
