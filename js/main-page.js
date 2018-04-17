@@ -79,9 +79,8 @@ function toggle_menu() {
   })
   $("#roadster").click(function() {
     clear_main_page();
-
-    loadScript('js/aos.js')
-      $('main').load('pages/roadster.html');
+    $('main').load('pages/roadster.html');
+     loadScript('js/aos.js')
           loadScript('js/roadster.js')
       $("footer").hide();
   })
@@ -119,10 +118,12 @@ function toggle_menu() {
   });
   $(document).on("click", '#hidden_menu_mobile_r', function(event) {
     clear_main_page();
-    loadScript('js/roadster.js')
-    loadScript('js/aos.js')
+   
     $('main').load('pages/roadster.html');
+     loadScript('js/roadster.js')
+    loadScript('js/aos.js')
     $("footer").hide();
+    
 
     removeClass();
     $('#roadster').addClass('active_header_link');
