@@ -345,10 +345,12 @@ $('.model_s_estimator_functional_calc div:nth-child(4) .model_s_calc_box').click
   });
   $('.switch_btn_con button:first-child').click(function() {
     $(".model_s_switching_img div").html('<img src=' + "images/model-s-page/motor-dual.jpg" + ' />')
+     $('.switch_btn_con button:first-child').addClass('active').siblings().removeClass('active');
   })
 
   $('.switch_btn_con button:last-child').click(function() {
     $(".model_s_switching_img div").html('<img src="images/model-s-page/motor-p90d.jpg"  />')
+    $('.switch_btn_con button:last-child').addClass('active').siblings().removeClass('active');
   })
   $('#wheels_calc div>div').on('click', function() {
     $(this).addClass('active_calc').siblings().removeClass('active_calc');
