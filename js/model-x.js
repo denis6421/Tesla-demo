@@ -97,8 +97,7 @@ $(function(){
 var element = document.getElementById('mySwipe'),
   prevBtn = document.getElementById('prev_small'),
   nextBtn = document.getElementById('next_small');
-  prevBtn.onclick = mySwipe.prev;
-  nextBtn.onclick = mySwipe.next;
+  
 window.mySwipe = new Swipe(element, {
   startSlide: 1,
   auto: 0,
@@ -109,7 +108,8 @@ window.mySwipe = new Swipe(element, {
   stopPropagation: true,
 
 });
-
+prevBtn.onclick = mySwipe.prev;
+  nextBtn.onclick = mySwipe.next;
 
 
 var element = document.getElementById('mySwipe1'),
